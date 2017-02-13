@@ -4,7 +4,8 @@ from django.contrib import admin
 from final_project import views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$', views.main),
+    url(r'^$', views.introduce),
+    url(r'^main/$', views.main),
     url(r'^about/$', views.about),
     url(r'^project/$', views.project),
     url(r'^contact/$', views.contact),
