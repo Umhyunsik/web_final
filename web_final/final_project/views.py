@@ -1,6 +1,11 @@
 from django.shortcuts import render
+from final_project.models import user
+
 from django.http import HttpResponse
+
 # Create your views here.
+def index(request):
+    return render(request, "index.html")
 def introduce(request):
     return render(request, "introduce.html")
 def main(request):
@@ -29,3 +34,11 @@ def project8(request):
     return render(request,"project8.html")
 def project9(request):
     return render(request,"project9.html")
+
+def login_check(request):
+    if request.method =="POST":
+        user = request.POST["user"]
+
+        print(user)
+
+    return render(request,'setting.html')
