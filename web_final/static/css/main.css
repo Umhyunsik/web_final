@@ -277,7 +277,18 @@ body {
   font-size: 12px;
 }
 
-
+#carousel1{
+    height: 100px;}
+#main {
+    width: 75%;
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.main_class{width:100%;
+margin-left: 200px;}
 /*
  * footer
  */
