@@ -4,39 +4,42 @@ Contact
 {% endblock %}
 
 {% block content %}
+<style>
+img {
+    display: block;
+    margin: 0 auto;
+}
+    .contact{text-align:center;}
+</style>
+
+<!--<div class="alblack">-->
+<!--<div class="mitro">-->
+<!--=-->
+    <!--<p class="whitefont">Umhyunsik</p>-->
+
+    <!--<p class="whitefont">You can visit Dennis Adelmann in his office at Hafenstrasse 25-27 in 68159 Mannheim / Ger. If you like to write him an e-mail,-->
+        <!--you can use this mail-address salve [at] dennisadelmann .de. If you are a fan or client and want to get updates of the work of-->
+        <!--Dennis Adelmann you can follow him on Twitter — Instagram — Behance — Facebook.</p>-->
 
 
-<div class="alblack">
-<div class="mitro">
-<<<<<<< HEAD
-    <p class="whitefont">Umhyunsik</p>
-=======
-    <p class="whitefont">You can visit Dennis Adelmann in his office at Hafenstrasse 25-27 in 68159 Mannheim / Ger. If you like to write him an e-mail,
-        you can use this mail-address salve [at] dennisadelmann .de. If you are a fan or client and want to get updates of the work of
-        Dennis Adelmann you can follow him on Twitter — Instagram — Behance — Facebook.</p>
-
-
-
-<a href="#" data-toggle="modal" data-target="#login-modal">관리자</a>
-<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
-    	  <div class="modal-dialog">
-				<div class="loginmodal-container">
-					<h1>Login to Your Account</h1><br>
-				  <form action="/login_check" method="POST">
-                      {% csrf_token %}
-					<input type="text" name="user" placeholder="Username">
-					<input type="password" name="pass" placeholder="Password">
-					<input type="submit" name="login" class="login loginmodal-submit" value="Login">
-				  </form>
-
-				  <div class="login-help">
-				  <a href="#">Forgot Password</a>
-				  </div>
-				</div>
-			</div>
-		  </div>
->>>>>>> fd9898c0465537a4509387b1f60c80d0bfb3ed01
+<div class="logo">
+     <!--<img src="../static/image/iabstudio%20logo.png" width="50%">-->
 </div>
+<div class= "contact">
+<img src="../static/image/iabstudio%20logo.png" width="50%">
+    <br>
+    <br>
+<h2> CONTACT US</h2>
+    <br>
+    <br><br><br>
+<p>070-8817-0626</p>
+
+<p>전화 상담: 월~금요일 PM 2:00 – PM 9:00</p>
+    <br>
+    <br><br><br>
+    <br>
+    <br><br><br><br>
+
 </div>
 
 <!--
